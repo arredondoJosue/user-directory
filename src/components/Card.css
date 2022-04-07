@@ -1,0 +1,38 @@
+.card-count {
+  display: flexbox;
+  flex-direction: row;
+  justify-items: end;
+  color: aliceblue;
+}
+
+.card-container {
+  background-color: gray;
+  color: black;
+  padding: 20px;
+  display: flexbox;
+  font-size: 1rem;
+  width: 700px;
+  height: 500px;
+}
+
+.user-data {
+  display: flexbox;
+  width: inherit;
+  height: inherit;
+}
+
+.counter {
+  color: white;
+}
+
+.nav-container {
+  margin-top: 35px;
+}
+
+.nav {
+  justify-content: space-between;
+}
+
+.new-card-id {
+  visibility: hidden;
+}
